@@ -7,16 +7,16 @@ positions:
 - logo: /assets/images/badges/uva_logo.png
   name: University of Amsterdam
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: your_google_scholar_id
-github: your_github_id
-twitter: your_twitter_id
+email: "a.palmann@uva.nl"
+cv_link: https://pdflink.to/palmann_cv/
+gscholar: https://scholar.google.com/citations?user=bP8hphUAAAAJ&hl=en
+github: https://github.com/palmanna
+# twitter: your_twitter_id
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+linkedin: https://www.linkedin.com/in/anna-palmann/
+orcid: 0009-0002-9878-073X
 
 short_bio: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
