@@ -4,9 +4,8 @@ navbar_name: "Anna Palmann"
 
 positions:
 - name: PhD Candidate at Institute for Logic, Language, and Computation (ILLC)
-- logo: /assets/images/badges/uva_logo.png
-  name: University of Amsterdam
-  url: "https://www.uva.nl"
+- #logo: /assets/images/badges/uva_logo.png
+  #name: [University of Amsterdam](https://www.uva.nl)
 
 email: "a.palmann@uva.nl"
 cv_link: https://pdflink.to/palmann_cv/
