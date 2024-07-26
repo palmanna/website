@@ -1,2 +1,6 @@
-text-about-bio: >-
-Hello this is an example 
+primary_name: Anna Palmann
+secondary_name: PhD
+short_bio: >
+  John Doe is a professor and researcher in the field of computer science. 
+  His research focuses on artificial intelligence and machine learning.
+
