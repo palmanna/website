@@ -3,20 +3,24 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    background-color: #fff; /* Ensure the background is white */
+    color: black; /* Black text color */
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
+    color: black; /* Ensure headers are black */
 }
 
 .text-profile-position {
     font-weight: 400;
+    color: black; /* Ensure position text is black */
 }
 
 .text-profile-bio {
-    /* font-family: "Poppins"; */
     font-weight: 400;
+    color: black; /* Ensure bio text is black */
 }
 
 .navbar {
@@ -59,3 +63,8 @@ img.lazy {
     font-family: Courier, monospace;
 }
 
+/* Link colors */
+a, a:hover, a:focus {
+    color: white; /* White color for links */
+    text-decoration: none;
+}
