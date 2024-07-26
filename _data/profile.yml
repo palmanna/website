@@ -11,12 +11,12 @@ positions:
 email: "a.palmann@uva.nl"
 cv_link: https://pdflink.to/palmann_cv/
 gscholar: https://scholar.google.com/citations?user=bP8hphUAAAAJ&hl=en
-github: https://github.com/palmanna
+github: palmanna
 # twitter: your_twitter_id
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-linkedin: https://www.linkedin.com/in/anna-palmann/
+linkedin: anna-palmann
 orcid: 0009-0002-9878-073X
 
 short_bio: >-
@@ -46,11 +46,11 @@ education:
   position: BA Linguistics
   date: 10/2015 - 09/2019
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+ experience:
+- name: Peking University
+  #logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2021
 
 
 # awards:
