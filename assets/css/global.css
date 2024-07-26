@@ -3,7 +3,6 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
-    background-color: #fff; /* Ensure the background is white */
     color: white; /* Black text color */
 }
 
@@ -28,10 +27,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .inline-badge {
-    height: 35px;
+    height: 50px;
     vertical-align: -10%;
     margin-right: 2px;
     line-break: unset;
+    display: inline-flex; /* Aligns text within the badge */
 }
 
 .no-break {
