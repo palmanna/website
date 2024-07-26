@@ -1,1 +1,23 @@
 <h2 class="pt-4">About</h2>
+
+<div class="row" style="background-color: #e35117b4">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-5" style="background-color: #075d2e; font-family: 'Poppins', sans-serif; color: white;">
+                <div class="row">
+                    <div class="col">
+                        <p class="h1 font-weight-normal">{{ site.data.about.primary_name }} <small>{{ site.data.about.secondary_name }}</small></p>
+                        <p class="text-about-bio">
+                            {{ site.data.about.short_bio | markdownify }}
+                        </p>
+                        {% if site.data.about.cv_link %}
+                            <a target="_blank" href="{{ site.data.about.cv_link }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+
+
