@@ -64,7 +64,12 @@ img.lazy {
 }
 
 /* Link colors */
-.a {
-    color: white; /* White color for links */
+a {
+    color: #808080; /* Grey color for links */
     text-decoration: none;
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #696969; /* Darker grey on hover */
 }
