@@ -88,3 +88,7 @@ a:hover {
     object-fit: cover;
     border: 2px solid #fff; /* Optional: add a white border around the images */
 }
+
+.text-about-header {
+    color: #075d2e; /* Change this to the desired color */
+}
