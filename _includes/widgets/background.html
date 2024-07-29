@@ -1,0 +1,36 @@
+<div class="row" style="background-color: #e35117b4;">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-5" style="background-color: #075d2e; font-family: 'Poppins', sans-serif; color: white;">
+                <div class="row">
+
+                <!-- Education Section -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <h3>Education</h3>
+                        {% for education in site.data.profile.education %}
+                        <div class="education-item">
+                            <h4>{{ education.degree }}</h4>
+                            <p>{{ education.institution }} <small>({{ education.year }})</small></p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- Experience Section -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <h3>Experience</h3>
+                        {% for experience in site.data.profile.experience %}
+                        <div class="experience-item">
+                            <h4>{{ experience.position }}</h4>
+                            <p>{{ experience.company }} <small>({{ experience.years }})</small></p>
+                            <p>{{ experience.description | markdownify }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>

@@ -28,33 +28,7 @@ portrait_height: 600
 #portrait_caption: >-
 #  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
-education:
-- name: University of Vienna
-  logo: /assets/images/badges/PKU_red.png
-  position: MSc Cognitive Science
-  date: 10/2019 - 03/2022
-- name: University of Vienna
-  logo: /assets/images/badges/PKU_red.png
-  position: MSc Psychology
-  date: 10/2019 - 03/2022
-- name: University of Vienna
-  logo: /assets/images/badges/PKU_red.png
-  position: BSc Psychology
-  date: 10/2015 - 02/2019
-- name: University of Vienna
-  logo: /assets/images/badges/PKU_red.png
-  position: BA Linguistics
-  date: 10/2015 - 09/2019
 
-experience:
-- name: University of Vienna
-  #logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
-- name: University of Vienna
-  #logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
 
 
 # awards:
