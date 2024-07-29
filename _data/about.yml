@@ -1,7 +1,13 @@
 #primary_name: Anna Palmann
 #secondary_name: PhD Candidate
 short_bio: >
-   I am curious, critical, and genuinely interested in humans and their stories. In my free time, I enjoy exploring the world with my bicycle and by foot on long-distance hikes. This presents a great opportunity for me to get a glimpse into different landscapes and cultures, and to follow one of my passions: learning new languages. Besides that, I care about good food and am involved in various cooking projects aiming to reduce food waste and I am part of a community-supported agriculture project. Finally, I also am a freelance journalist for the street newspaper <a href="https://oew.org/zebra/" target="_blank">zebra.</a>.
+   I am curious, critical, and genuinely interested in humans and their stories. 
+   
+   In my free time, I enjoy exploring the world with my bicycle and by foot on long-distance travels. This presents a great opportunity for me to get a glimpse into different landscapes and cultures, and to follow one of my passions: learning new languages. 
+   
+   Besides that, I care about good food and am involved in various cooking projects aiming to reduce food waste, as well as in a community-supported agriculture project. 
+   
+   Finally, I also am a freelance journalist for the street newspaper <a href="https://oew.org/zebra/" target="_blank">zebra.</a>.
 images:
   - url: "/assets/images/photos/cycling.jpg"
     alt: "Cycling"
