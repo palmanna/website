@@ -38,33 +38,6 @@
                     {% endif %}
                 </div>
 
-                <!-- Education Section -->
-                <div class="row mt-4">
-                    <div class="col">
-                        <h3>Education</h3>
-                        {% for education in site.data.profile.education %}
-                        <div class="education-item">
-                            <h4>{{ education.degree }}</h4>
-                            <p>{{ education.institution }} <small>({{ education.year }})</small></p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-
-                <!-- Experience Section -->
-                <div class="row mt-4">
-                    <div class="col">
-                        <h3>Experience</h3>
-                        {% for experience in site.data.profile.experience %}
-                        <div class="experience-item">
-                            <h4>{{ experience.position }}</h4>
-                            <p>{{ experience.company }} <small>({{ experience.years }})</small></p>
-                            <p>{{ experience.description | markdownify }}</p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-
                 <hr />
                 <div class="row">
                     <div class="col">
