@@ -73,3 +73,18 @@ a {
 a:hover {
     color: #e35117; /* Darker grey on hover */
 }
+
+.about-images {
+    display: flex;
+    gap: 10px; /* Adjust spacing between images as needed */
+    justify-content: center; /* Center the images */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+}
+
+.about-images img.rounded-image {
+    border-radius: 50%;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover;
+    border: 2px solid #fff; /* Optional: add a white border around the images */
+}
