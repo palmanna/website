@@ -3,7 +3,8 @@ secondary_name: ""
 navbar_name: "Anna Palmann"
 
 positions:
-- name: PhD Candidate at the Institute for Logic, Language, and Computation of the University of Amsterdam
+- name: PhD Candidate at the Institute for Logic, Language, and Computation 
+  institution: University of Amsterdam
 - #logo: /assets/images/badges/uva_logo.png
   url:  https://www.uva.nl/en
 

@@ -92,3 +92,7 @@ a:hover {
 .text-about-header {
     color: #075d2e; /* Change this to the desired color */
 }
+
+.text-about-bio {
+    text-align: justify; /* Justify the text */
+}
