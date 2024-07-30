@@ -1,12 +1,12 @@
 education:
-- name: University of Vienna
+- name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png
   position: MSc Cognitive Science
   date: 10/2019 - 03/2022
   summary: |      
       Middle Europan interdisciplinary master's programme in Cognitive Science (MEi:CogSci)
       
-      Erasmus student exchange at the University of Ljubljana (Slovenia)
+      Erasmus student exchange at the University of Ljubljana, Slovenia (10/2020 - 02/2021)
       
       Thesis on "The relationship between phonological and semantic distance and perceived funniness of punning jokes" 
       (supervised by <a href="https://logological.org/" target="_blank">Tristan Miller</a>)
@@ -14,14 +14,14 @@ education:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/62333'
 
-- name: University of Vienna
+- name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png
   position: MSc Psychology
   date: 10/2019 - 03/2022
   summary: |      
       Research master "Mind and Brain"
 
-      Research stay at Maastricht University (Netherlands)
+      Research stay at Maastricht University, Netherlands (09/2021 - 03/2022)
       
       Thesis on "The neural correlates of lipread vs. text-based phonetic recalibration in dyslexic adults"
       (supervised by <a href="https://mbic-languagelab.nl/en/researcher/milene-bonte/" target="_blank">Milene Bonte</a>)
@@ -29,13 +29,13 @@ education:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/61771/'
 
-- name: University of Vienna
+- name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png
   position: BSc Psychology
   date: 10/2015 - 02/2019
   summary: Erasmus student exchange at Bangor University (United Kingdom)
 
-- name: University of Vienna
+- name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png
   position: BA Linguistics
   date: 10/2015 - 09/2019

@@ -100,6 +100,6 @@ a:hover {
 .btn-small {
     background-color: #e36c17af;
     border-color: #e36c17af;
-    font-size: 0.875rem;
-    padding: 0.5rem 1rem;
+    font-size: 0.575rem;
+    padding: 0.3rem 0.5rem;
 }
