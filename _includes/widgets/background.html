@@ -8,7 +8,7 @@
                 <div class="row mt-4">
                     <div class="col">
                         <h3>Education</h3>
-                        {% for education in site.data.profile.education %}
+                        {% for education in site.data.background.education %}
                         <div class="education-item">
                             <h4>{{ education.position }}</h4>
                             <p>{{ education.name }} <small>({{ education.date }})</small></p>
@@ -25,7 +25,7 @@
                 <div class="row mt-4">
                     <div class="col">
                         <h3>Experience</h3>
-                        {% for experience in site.data.profile.experience %}
+                        {% for experience in site.data.background.experience %}
                         <div class="experience-item">
                             <h4>{{ experience.position }}</h4>
                             <p>{{ experience.company }} <small>({{ experience.years }})</small></p>
