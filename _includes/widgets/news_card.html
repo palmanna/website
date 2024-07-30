@@ -10,10 +10,11 @@
             <div class="media-body">
                 {% for item in year.items %}
                 <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
+                    <div>
+                        <a href="#" class="news-title" onclick="toggleHeadline(event)">{{ item.title }}</a>
+                    </div>
                     <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.title }}</i></div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.headline }}</i></div>
+                    <div class="news-headline" style="display: none;">{{ item.headline }}</div>
                 </div>
                 {% endfor %}
             </div>
@@ -21,3 +22,32 @@
         {% endfor %}
     </div>
 </div>
+
+<script>
+    function toggleHeadline(event) {
+        event.preventDefault();
+        var headline = event.target.closest('.d-flex').querySelector('.news-headline');
+        if (headline.style.display === 'none' || headline.style.display === '') {
+            headline.style.display = 'block';
+        } else {
+            headline.style.display = 'none';
+        }
+    }
+</script>
+
+<style>
+    .news-title {
+        cursor: pointer;
+        color: #e36c17af;
+        text-decoration: none;
+    }
+
+    .news-title:hover {
+        text-decoration: underline;
+    }
+
+    .news-headline {
+        margin-top: 0.5rem;
+        color: #333;
+    }
+</style>
