@@ -7,14 +7,16 @@
                 <!-- Education Section -->
                 <div class="row mt-4">
                     <div class="col">
-                        <h3>Education</h3>
+                        <h3 style="font-size: 1.5rem;">Education</h3>
                         {% for education in site.data.background.education %}
                         <div class="education-item">
-                            <h4>{{ education.position }}</h4>
-                            <p>{{ education.name }} <small>({{ education.date }})</small></p>
+                            <h4 style="font-size: 1.25rem;">
+                                {{ education.position }}
+                                <small>({{ education.name }}, {{ education.date }})</small>
+                            </h4>
                             <p>{{ education.summary | markdownify }}</p>
                             {% if education.button %}
-                            <a href="{{ education.button.url }}" class="btn btn-small">{{ education.button.text }}</a>
+                            <a href="{{ education.button.url }}" class="btn btn-primary" style="background-color: orange; border-color: orange; font-size: 0.875rem; padding: 0.5rem 1rem;">{{ education.button.text }}</a>
                             {% endif %}
                         </div>
                         {% endfor %}
@@ -24,11 +26,13 @@
                 <!-- Experience Section -->
                 <div class="row mt-4">
                     <div class="col">
-                        <h3>Experience</h3>
+                        <h3 style="font-size: 1.5rem;">Experience</h3>
                         {% for experience in site.data.background.experience %}
                         <div class="experience-item">
-                            <h4>{{ experience.position }}</h4>
-                            <p>{{ experience.company }} <small>({{ experience.years }})</small></p>
+                            <h4 style="font-size: 1.25rem;">
+                                {{ experience.position }}
+                                <small>({{ experience.company }}, {{ experience.years }})</small>
+                            </h4>
                             <p>{{ experience.description | markdownify }}</p>
                         </div>
                         {% endfor %}

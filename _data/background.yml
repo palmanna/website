@@ -3,7 +3,7 @@ education:
   # logo: /assets/images/badges/PKU_red.png
   position: MSc Cognitive Science
   date: 10/2019 - 03/2022
-  summary: |
+  summary: |      
       Middle Europan interdisciplinary master's programme in Cognitive Science (MEi:CogSci)
       
       Erasmus student exchange at the University of Ljubljana (Slovenia)
@@ -18,9 +18,9 @@ education:
   # logo: /assets/images/badges/PKU_red.png
   position: MSc Psychology
   date: 10/2019 - 03/2022
-  summary: |
+  summary: |      
       Research master "Mind and Brain"
-      
+
       Research stay at Maastricht University (Netherlands)
       
       Thesis on "The neural correlates of lipread vs. text-based phonetic recalibration in dyslexic adults"
