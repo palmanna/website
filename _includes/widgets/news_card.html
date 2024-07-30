@@ -1,53 +1,130 @@
-{% assign news_by_year = site.news | sort: "date" | reverse | limit: 10 | group_by_exp: "item", "item.date | date: '%Y'" -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Section</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Adjust to match typical modern fonts */
+            background-color: #f4f6f9; /* Light gray background */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Dark text color for readability */
+        }
 
-<div class="my-3 bg-white shadow-sm rounded-sm">
-    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
-    <div class="px-3 pb-1">
-        {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
-            {% assign not_first = true %}
-            <div class="mr-3 text-muted my-1">{{ year.name }}</div>
-            <div class="media-body">
-                {% for item in year.items %}
-                <div class="my-1 d-flex">
-                    <div>
-                        <a href="#" class="news-title" onclick="toggleHeadline(event)">{{ item.title }}</a>
-                    </div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
-                    <div class="news-headline" style="display: none;">{{ item.headline }}</div>
+        .news-container {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .news-year {
+            border: 1px solid #e0e0e0; /* Light gray border */
+            border-radius: 8px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            background-color: #ffffff; /* White background for each section */
+        }
+
+        .news-toggle {
+            display: none; /* Hide the checkbox */
+        }
+
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            background-color: #007bff; /* Primary blue color */
+            color: #ffffff; /* White text for contrast */
+            cursor: pointer;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .news-header i {
+            transition: transform 0.3s ease;
+        }
+
+        .news-toggle:checked + .news-header i {
+            transform: rotate(180deg); /* Rotate arrow when expanded */
+        }
+
+        .news-content {
+            display: none;
+            padding: 12px 20px;
+        }
+
+        .news-toggle:checked ~ .news-content {
+            display: block; /* Show content when checkbox is checked */
+        }
+
+        .news-item {
+            margin-bottom: 15px;
+        }
+
+        .news-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #007bff; /* Primary blue color for title */
+            text-decoration: none;
+        }
+
+        .news-title:hover {
+            text-decoration: underline;
+        }
+
+        .news-date {
+            color: #888; /* Lighter gray for date */
+        }
+
+        .news-headline {
+            margin-top: 5px;
+            color: #555; /* Darker gray for headline text */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="news-container">
+        <!-- Example News Data -->
+        <div class="news-year">
+            <input type="checkbox" id="year-1" class="news-toggle">
+            <label for="year-1" class="news-header">
+                <span>2024</span>
+                <i class="fas fa-chevron-down"></i>
+            </label>
+            <div class="news-content">
+                <div class="news-item">
+                    <div class="news-title">News Title 1</div>
+                    <div class="news-date">Jul 30</div>
+                    <div class="news-headline">This is a brief headline for news item 1.</div>
                 </div>
-                {% endfor %}
+                <div class="news-item">
+                    <div class="news-title">News Title 2</div>
+                    <div class="news-date">Jul 29</div>
+                    <div class="news-headline">This is a brief headline for news item 2.</div>
+                </div>
             </div>
         </div>
-        {% endfor %}
+        <div class="news-year">
+            <input type="checkbox" id="year-2" class="news-toggle">
+            <label for="year-2" class="news-header">
+                <span>2023</span>
+                <i class="fas fa-chevron-down"></i>
+            </label>
+            <div class="news-content">
+                <div class="news-item">
+                    <div class="news-title">News Title 3</div>
+                    <div class="news-date">Dec 15</div>
+                    <div class="news-headline">This is a brief headline for news item 3.</div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
-<script>
-    function toggleHeadline(event) {
-        event.preventDefault();
-        var headline = event.target.closest('.d-flex').querySelector('.news-headline');
-        if (headline.style.display === 'none' || headline.style.display === '') {
-            headline.style.display = 'block';
-        } else {
-            headline.style.display = 'none';
-        }
-    }
-</script>
+    <!-- Include FontAwesome for chevron icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-<style>
-    .news-title {
-        cursor: pointer;
-        color: #e36c17af;
-        text-decoration: none;
-    }
-
-    .news-title:hover {
-        text-decoration: underline;
-    }
-
-    .news-headline {
-        margin-top: 0.5rem;
-        color: #333;
-    }
-</style>
+</body>
+</html>
