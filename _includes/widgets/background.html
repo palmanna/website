@@ -10,8 +10,12 @@
                         <h3>Education</h3>
                         {% for education in site.data.profile.education %}
                         <div class="education-item">
-                            <h4>{{ education.degree }}</h4>
-                            <p>{{ education.institution }} <small>({{ education.year }})</small></p>
+                            <h4>{{ education.position }}</h4>
+                            <p>{{ education.name }} <small>({{ education.date }})</small></p>
+                            <p>{{ education.summary | markdownify }}</p>
+                            {% if education.button %}
+                            <a href="{{ education.button.url }}" class="btn btn-primary">{{ education.button.text }}</a>
+                            {% endif %}
                         </div>
                         {% endfor %}
                     </div>

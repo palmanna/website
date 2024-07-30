@@ -65,13 +65,13 @@ img.lazy {
 
 /* Link colors */
 a {
-    color: #e35117b4; /* Grey color for links */
+    color: #e36c17af; /* Grey color for links */
     text-decoration: none;
 }
 
 /* Change link color on hover */
 a:hover {
-    color: #e35117; /* Darker grey on hover */
+    color: #e36c17af; /* Darker grey on hover */
 }
 
 .about-images {
