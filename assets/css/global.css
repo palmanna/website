@@ -96,3 +96,10 @@ a:hover {
 .text-about-bio {
     text-align: justify; /* Justify the text */
 }
+
+.btn-small {
+    background-color: #e36c17af;
+    border-color: #e36c17af;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}

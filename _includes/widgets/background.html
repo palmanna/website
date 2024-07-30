@@ -14,7 +14,7 @@
                             <p>{{ education.name }} <small>({{ education.date }})</small></p>
                             <p>{{ education.summary | markdownify }}</p>
                             {% if education.button %}
-                            <a href="{{ education.button.url }}" class="btn btn-primary">{{ education.button.text }}</a>
+                            <a href="{{ education.button.url }}" class="btn btn-small">{{ education.button.text }}</a>
                             {% endif %}
                         </div>
                         {% endfor %}
