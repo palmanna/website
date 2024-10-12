@@ -1,11 +1,11 @@
 pages:
 - name: Home
   url: /
-- name: About me
-  url: /about
 - name: Background 
   url: /background
 - name: Research
   url: /research
 - name: Publications
   url: /publications
+- name: About me
+  url: /about

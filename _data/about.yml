@@ -8,9 +8,9 @@ short_bio: |
    Finally, I care about good food and sustainability and am therefore involved in various cooking projects aiming to reduce food waste, as well as in a community-supported agriculture project. 
    
 images:
+  - url: "/assets/images/photos/hiking.jpg"
+    alt: "Hiking"
   - url: "/assets/images/photos/cycling.jpg"
     alt: "Cycling"
   - url: "/assets/images/photos/cooking.jpg"
     alt: "Cooking"
-  - url: "/assets/images/photos/hiking.jpg"
-    alt: "Hiking"
