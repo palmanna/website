@@ -13,9 +13,8 @@ education:
   button:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/62333'
-    spacing: |
-      <br> <!-- Space before button -->
-      <br> <!-- Space after button -->
+    class: button-spacing
+
 
 - name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png
@@ -31,9 +30,8 @@ education:
   button:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/61771/'
-    spacing: |
-      <br> <!-- Space before button -->
-      <br> <!-- Space after button -->
+    class: button-spacing
+
 
 - name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png

@@ -1,130 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Section</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif; /* Adjust to match typical modern fonts */
-            background-color: #f4f6f9; /* Light gray background */
-            margin: 0;
-            padding: 0;
-            color: #333; /* Dark text color for readability */
-        }
+<div class="news-container" id="news-container"></div>
 
-        .news-container {
-            max-width: 800px;
-            margin: 20px auto;
-        }
+<script>
+    async function fetchNews() {
+        const newsItems = [
+            { file: '2024-05-13-news1.md.md', date: 'May 13', year: '2024' },
+            { file: '2024-06-15-news2.md', date: 'Jun 15', year: '2024' },
+            { file: '2024-10-1-news3.md', date: 'Oct 01', year: '2024' },
+        ];
 
-        .news-year {
-            border: 1px solid #e0e0e0; /* Light gray border */
-            border-radius: 8px;
-            margin-bottom: 10px;
-            overflow: hidden;
-            background-color: #e36c17af; /* White background for each section */
-        }
+        let newsContainer = document.getElementById('news-container');
+        for (let item of newsItems) {
+            let response = await fetch(item.file);
+            let markdown = await response.text();
 
-        .news-toggle {
-            display: none; /* Hide the checkbox */
-        }
+            // You'd need a Markdown parser to convert it to HTML
+            let htmlContent = convertMarkdownToHtml(markdown);
 
-        .news-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 20px;
-            background-color: #e36c17af; /* Primary color */
-            color: #ffffff; /* White text for contrast */
-            cursor: pointer;
-            font-weight: bold;
-            position: relative;
-        }
-
-        .news-header i {
-            transition: transform 0.3s ease;
-        }
-
-        .news-toggle:checked + .news-header i {
-            transform: rotate(180deg); /* Rotate arrow when expanded */
-        }
-
-        .news-content {
-            display: none;
-            padding: 12px 20px;
-        }
-
-        .news-toggle:checked ~ .news-content {
-            display: block; /* Show content when checkbox is checked */
-        }
-
-        .news-item {
-            margin-bottom: 15px;
-        }
-
-        .news-title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #e36c17af; /* Primary color for title */
-            text-decoration: none;
-        }
-
-        .news-title:hover {
-            text-decoration: underline;
-        }
-
-        .news-date {
-            color: #888; /* Lighter gray for date */
-        }
-
-        .news-headline {
-            margin-top: 5px;
-            color: #555; /* Darker gray for headline text */
-        }
-    </style>
-</head>
-<body>
-
-    <div class="news-container">
-        <!-- Example News Data -->
-        <div class="news-year">
-            <input type="checkbox" id="year-1" class="news-toggle">
-            <label for="year-1" class="news-header">
-                <span>2024</span>
-                <i class="fas fa-chevron-down"></i>
-            </label>
-            <div class="news-content">
-                <div class="news-item">
-                    <div class="news-title">News Title 1</div>
-                    <div class="news-date">Jul 30</div>
-                    <div class="news-headline">This is a brief headline for news item 1.</div>
+            let newsItemHtml = `
+                <div class="news-year">
+                    <input type="checkbox" id="year-${item.year}" class="news-toggle">
+                    <label for="year-${item.year}" class="news-header">
+                        <span>${item.year}</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="news-content">
+                        <div class="news-item">
+                            <div class="news-title">${htmlContent}</div>
+                            <div class="news-date">${item.date}</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="news-item">
-                    <div class="news-title">News Title 2</div>
-                    <div class="news-date">Jul 29</div>
-                    <div class="news-headline">This is a brief headline for news item 2.</div>
-                </div>
-            </div>
-        </div>
-        <div class="news-year">
-            <input type="checkbox" id="year-2" class="news-toggle">
-            <label for="year-2" class="news-header">
-                <span>2023</span>
-                <i class="fas fa-chevron-down"></i>
-            </label>
-            <div class="news-content">
-                <div class="news-item">
-                    <div class="news-title">News Title 3</div>
-                    <div class="news-date">Dec 15</div>
-                    <div class="news-headline">This is a brief headline for news item 3.</div>
-                </div>
-            </div>
-        </div>
-    </div>
+            `;
+            newsContainer.innerHTML += newsItemHtml;
+        }
+    }
 
-    <!-- Include FontAwesome for chevron icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    function convertMarkdownToHtml(markdown) {
+        // Use a library like marked.js or showdown.js to convert markdown
+        return markdown; // For now, just return raw markdown
+    }
 
-</body>
-</html>
+    fetchNews();
+</script>
