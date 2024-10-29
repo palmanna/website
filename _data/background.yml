@@ -13,7 +13,7 @@ education:
   button:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/62333'
-    class: button-spacing
+    class: button
 
 
 - name: University of Vienna, Austria
@@ -30,7 +30,7 @@ education:
   button:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/61771/'
-    class: button-spacing
+    class: button
 
 
 - name: University of Vienna, Austria

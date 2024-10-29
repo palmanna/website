@@ -97,14 +97,11 @@ a:hover {
     text-align: justify; /* Justify the text */
 }
 
-.btn-small {
+.button {
     background-color: #2C5F2D;
-    border-color: #2C5F2D;
-    font-size: 0.575rem;
-    padding: 0.3rem 0.5rem;
+    color: #ffffff;
+    padding: 8px 16px; /* Adjust size */
+    margin: 0 auto; /* Center align */
+    display: block;
 }
 
-.button-spacing {
-    margin-top: 20px;  /* Adjust spacing as needed */
-    margin-bottom: 20px;
-}
