@@ -65,13 +65,13 @@ img.lazy {
 
 /* Link colors */
 a {
-    color: #e36c17af; /* Grey color for links */
+    color: #2C5F2D; /* Grey color for links */
     text-decoration: none;
 }
 
 /* Change link color on hover */
 a:hover {
-    color: #e36c17af; /* Darker grey on hover */
+    color: #A8BDA5; /* Darker grey on hover */
 }
 
 .about-images {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .text-about-header {
-    color: #4CAF50; /* Change this to the desired color */
+    color: #A8BDA5; /* Change this to the desired color */
 }
 
 .text-about-bio {
@@ -98,8 +98,8 @@ a:hover {
 }
 
 .btn-small {
-    background-color: #D87C32;
-    border-color: #D87C32;
+    background-color: #2C5F2D;
+    border-color: #2C5F2D;
     font-size: 0.575rem;
     padding: 0.3rem 0.5rem;
 }
