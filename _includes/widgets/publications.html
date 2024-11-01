@@ -28,6 +28,12 @@ permalink: /publications/
                             {% if publication.pub_date %}
                                 <p>Publication Date: {{ publication.pub_date }}</p>
                             {% endif %}
+                            {% if publication.pub_pre %}
+                                <p>Status: {{ publication.pub_pre }}</p>
+                            {% endif %}
+                            {% if publication.pub_post %}
+                                <p>Review Status: {{ publication.pub_post }}</p>
+                            {% endif %}
                         </div>
                         <br>
                         {% endfor %}
