@@ -16,7 +16,7 @@
                             </h4>
                             <p>{{ education.summary | markdownify }}</p>
                             {% if education.button %}
-                            <a href="{{ education.button.url }}" class="btn btn-primary" style="background-color: #2C5F2D; border-color: #2C5F2D; font-size: 0.875rem; padding: 1rem 1rem;">{{ education.button.text }}</a>
+                            <a href="{{ education.button.url }}" class="btn btn-primary" style="background-color: #2C5F2D; border-color: #2C5F2D; font-size: 0.875rem; padding: 0.5rem 0.5rem;">{{ education.button.text }}</a>
                             {% endif %}
                         </div>
                         {% endfor %}

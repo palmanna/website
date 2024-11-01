@@ -33,7 +33,7 @@ num_selected: 10
         {% assign recent_publications = site.publications | sort: 'date' | reverse | where: "selected", true %}
         
         <!-- Display Publications with Limit -->
-        {% for item in recent_publications limit: page.num_selected %}
+        {% for item in recent_publications limit: 5 %}
             {% include widgets/publication_item.html item=item %}
         {% endfor %}
         
