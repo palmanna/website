@@ -9,17 +9,17 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
-    color: #fff; /* Ensure headers are same color */
+    color: white; /* Ensure headers are same color */
 }
 
 .text-profile-position {
     font-weight: 400;
-    color: white; /* Ensure position text is black */
+    color: white; /* Ensure position text is white */
 }
 
 .text-profile-bio {
     font-weight: 400;
-    color: white; /* Ensure bio text is black */
+    color: white; /* Ensure bio text is white */
 }
 
 .navbar {
