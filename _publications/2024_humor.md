@@ -6,7 +6,7 @@ selected:       true
 pub_pre:        "Submitted to HUMOR: International Journal of Humor Research"
 pub_post:       'Under review.'
 #pub_date:       "2024"
-abstract: >-
+excerpt: >-
 In this study, we quantified the phonological distance between pun and target words and
 assessed possible correlations with humorousness ratings of the subsuming joke. Our statistical analyses on a large dataset of puns revealed a significant negative correlation between phonological distance and perceived humorousness for two of the four phonological distance measures applied.
 

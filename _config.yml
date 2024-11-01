@@ -33,11 +33,8 @@ plugins:
 #   - vendor/ruby/
 
 # timezone: Asia/Shanghai
-
-- title: Publications
-    url: /publications/
     
-  news:
-    output: true  
-    permalink: /news/:path/
+#  news:
+#    output: true  
+#    permalink: /news/:path/
 

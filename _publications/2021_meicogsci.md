@@ -8,12 +8,12 @@ pub:            "MEi: CogSci Conference Proceedings"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2021"
 
-abstract: >-
+excerpt: >-
   In this study, we quantified and compared phonological and semantic features in a punning joke and assessed their
 influence on perceived funniness.
 # cover:          /assets/images/covers/cover3.jpg
 authors:
   - Anna Palmann
-links:
+url:
   Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2021.pdf#page=53
 ---

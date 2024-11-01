@@ -11,11 +11,7 @@ permalink: /publications/
 
     {% if all_publications.size > 0 %}
         {% for item in all_publications %}
-            <div class="publication-item">
-                <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-                <p class="publication-date">{{ item.date | date: "%B %d, %Y" }}</p>
-                <p>{{ item.excerpt }}</p>
-            </div>
+            {% include widgets/publication_item.html item=item %}
         {% endfor %}
     {% else %}
         <p>No publications available.</p>
