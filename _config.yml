@@ -36,5 +36,7 @@ plugins:
 
 collections:
   - publications
-  - news
+      output: true
+      permalink: /:collection/:path/
+  - #news
 
