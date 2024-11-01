@@ -7,8 +7,8 @@ publications:
     excerpt: >-
       Using TASH, a toolbox for the automated segmentation of the Heschl's gyrus, we explored relationships between anatomical measures, such as volume, surface area, thickness, and curvature, and language-experience measures like number and proficiency of spoken languages, age of acquisition, and duration of exposure.
     authors:
-      - Anna Palmann
-      - Narly Golestani
+    - Anna Palmann
+    - Narly Golestani
     url:
       Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2020.pdf#page=42
 
@@ -20,7 +20,7 @@ publications:
     excerpt: >-
       In this study, we quantified and compared phonological and semantic features in a punning joke and assessed their influence on perceived funniness.
     authors:
-      - Anna Palmann
+    - Anna Palmann
     url:
       Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2021.pdf#page=53
 
@@ -32,8 +32,8 @@ publications:
     excerpt: >-
       In this study, we quantified the phonological distance between pun and target words and assessed possible correlations with humorousness ratings of the subsuming joke. Our statistical analyses on a large dataset of puns revealed a significant negative correlation between phonological distance and perceived humorousness for two of the four phonological distance measures applied.
     authors:
-      - Anna Palmann
-      - Tristan Miller
+    - Anna Palmann
+    - Tristan Miller
 
   - title: "Lokal- und Direktionalangaben im Südtiroler Dialekt des Raumes Überetsch - Eine syntaktische Bestandsaufnahme unter Berücksichtigung der semantischen Ebene"
     date: "2024-07-11 00:01:00 +0800"
@@ -42,8 +42,8 @@ publications:
     excerpt: >-
       I investigated local and directional phrases used in South Tyrolean dialect, taking into consideration syntactic and semantic aspects.
     authors:
-      - Anna Palmann
-      - Andreas Raffeiner
-      - others
+    - Anna Palmann
+    - Andreas Raffeiner
+    - others
     url:
-      Book: https://www.thalia.de/shop/home/artikeldetails/A1072151617
+      Paper: https://www.thalia.de/shop/home/artikeldetails/A1072151617
