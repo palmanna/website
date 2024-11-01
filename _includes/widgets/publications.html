@@ -1,39 +1,42 @@
+
 <div class="row" style="background-color: #2C5F2D;">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-5" style="background-color: #A8BDA5; font-family: 'Poppins', sans-serif; color: white;">
-                <h1 style="font-size: 2rem;">Publications</h1>
-                <div class="publications-list">
-                    {% assign publications = site.data.publications %}
-                    {% if publications %}
-                        {% for publication in publications %}
-                        <div class="publication-item">
-                            <h3 style="font-size: 1.25rem;">
-                                <a href="{{ publication.url.Paper | default: '#' }}">{{ publication.title }}</a>
-                            </h3>
-                            <p class="publication-date">{{ publication.date | date: "%B %d, %Y" }}</p>
-                            <p>{{ publication.excerpt }}</p>
-                            {% if publication.authors %}
-                                <p>Authors: {{ publication.authors | join: ', ' }}</p>
-                            {% endif %}
-                            {% if publication.pub %}
-                                <p>Published in: {{ publication.pub }}</p>
-                            {% endif %}
-                            {% if publication.pub_date %}
-                                <p>Publication Date: {{ publication.pub_date }}</p>
-                            {% endif %}
-                            {% if publication.pub_pre %}
-                                <p>Status: {{ publication.pub_pre }}</p>
-                            {% endif %}
-                            {% if publication.pub_post %}
-                                <p>Review Status: {{ publication.pub_post }}</p>
-                            {% endif %}
-                        </div>
-                        <br>
-                        {% endfor %}
-                    {% else %}
-                        <p>No publications available.</p>
-                    {% endif %}
+                <h1 style="font-size: 2rem;">My publications</h1>
+                <div class="row mt-4">
+                    <div class="col">
+                        <h1 style="font-size: 2rem;">My Publications</h1>
+                        {% if site.data.publications %}
+                            {% for publication in site.data.publications.publications %}
+                                <div class="publication-item">
+                                    <h3 style="font-size: 1.5rem;">
+                                        <a href="{{ publication.url.Paper | default: '#' }}">{{ publication.title }}</a>
+                                    </h3>
+                                    <p class="publication-date">{{ publication.date | date: "%B %d, %Y" }}</p>
+                                    <p>{{ publication.excerpt }}</p>
+                                    {% if publication.authors %}
+                                        <p>Authors: {{ publication.authors | join: ', ' }}</p>
+                                    {% endif %}
+                                    {% if publication.pub %}
+                                        <p>Published in: {{ publication.pub }}</p>
+                                    {% endif %}
+                                    {% if publication.pub_date %}
+                                        <p>Publication Date: {{ publication.pub_date }}</p>
+                                    {% endif %}
+                                    {% if publication.pub_pre %}
+                                        <p>Status: {{ publication.pub_pre }}</p>
+                                    {% endif %}
+                                    {% if publication.pub_post %}
+                                        <p>Review Status: {{ publication.pub_post }}</p>
+                                    {% endif %}
+                                </div>
+                                <br>
+                            {% endfor %}
+                        {% else %}
+                            <p>No publications available.</p>
+                        {% endif %}
+                    </div>                
                 </div>
             </div>
         </div>
