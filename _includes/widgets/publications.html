@@ -1,0 +1,30 @@
+<div class="row" style="background-color: #2C5F2D;">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-5" style="background-color: #A8BDA5; font-family: 'Poppins', sans-serif; color: white;">
+                <h1 style="font-size: 2rem; color: white;">Publications</h1>
+                <div class="row mt-4">
+                    <div class="col">
+                        {% for publication in site.data.publications %}
+                        <div class="publication-item">
+                            <h4 style="font-size: 1.25rem;">
+                                {{ publication.title }}
+                                <small>({{ publication.pub_date }})</small>
+                            </h4>
+                            <p class="publication-date">{{ publication.date | date: "%B %d, %Y" }}</p>
+                            <p>{{ publication.excerpt }}</p>
+                            <p>Authors: {{ publication.authors | join: ', ' }}</p>
+                            {% if publication.url %}
+                                {% for key, url in publication.url %}
+                                    <a href="{{ url }}" class="btn btn-primary" style="background-color: #2C5F2D; border-color: #2C5F2D; font-size: 0.875rem; padding: 0.5rem 0.5rem;">{{ key }}</a>
+                                {% endfor %}
+                            {% endif %}
+                            <hr>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
