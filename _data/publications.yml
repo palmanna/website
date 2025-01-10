@@ -1,39 +1,18 @@
 publications:
-  - title: "Multilingual Language Experience and Heschl’s Gyrus Structure"
-    date: "2020-07-01 00:01:00 +0800"
+  - title: "Multimodal communicative signals facilitating communicative success for hard-of-hearing individuals in noisy contexts"
+    date: "2025-01-08 00:01:00 +0800"
     selected: true
-    pub: "MEi: CogSci Conference Proceedings"
-    pub_date: "2020"
+    pub: "SPIN 2025"
+    pub_date: "2025"
     excerpt: >-
-      Using TASH, a toolbox for the automated segmentation of the Heschl's gyrus, we explored relationships between anatomical measures, such as volume, surface area, thickness, and curvature, and language-experience measures like number and proficiency of spoken languages, age of acquisition, and duration of exposure.
+      Poster for the "SPIN 2025 - 16th Speech in Noise Workshop" in Lancaster, Great Britain
     authors:
     - Anna Palmann
-    - Narly Golestani
+    - James Trujillo
+    - Linda Drijvers
+    - Floris Roelofsen
     url:
-      Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2020.pdf#page=42
-
-  - title: "What's in a pun?"
-    date: "2021-01-01 00:01:00 +0800"
-    selected: true
-    pub: "MEi: CogSci Conference Proceedings"
-    pub_date: "2021"
-    excerpt: >-
-      In this study, we quantified and compared phonological and semantic features in a punning joke and assessed their influence on perceived funniness.
-    authors:
-    - Anna Palmann
-    url:
-      Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2021.pdf#page=53
-
-  - title: "What’s in a pun? Assessing the relationship between phonological distance and perceived humorousness of punning jokes"
-    date: "2024-01-21 00:01:00 +0800"
-    selected: true
-    pub_pre: "Submitted to HUMOR: International Journal of Humor Research"
-    pub_post: "Under review."
-    excerpt: >-
-      In this study, we quantified the phonological distance between pun and target words and assessed possible correlations with humorousness ratings of the subsuming joke. Our statistical analyses on a large dataset of puns revealed a significant negative correlation between phonological distance and perceived humorousness for two of the four phonological distance measures applied.
-    authors:
-    - Anna Palmann
-    - Tristan Miller
+      Poster: https://zenodo.org/records/14608615
 
   - title: "Lokal- und Direktionalangaben im Südtiroler Dialekt des Raumes Überetsch - Eine syntaktische Bestandsaufnahme unter Berücksichtigung der semantischen Ebene"
     date: "2024-07-11 00:01:00 +0800"
@@ -47,3 +26,43 @@ publications:
     - others
     url:
       Paper: https://www.thalia.de/shop/home/artikeldetails/A1072151617
+
+  - title: "What’s in a pun? Assessing the relationship between phonological distance and perceived humorousness of punning jokes"
+    date: "2024-01-21 00:01:00 +0800"
+    selected: true
+    pub_pre: "Submitted to HUMOR: International Journal of Humor Research"
+    pub_post: "Under review."
+    excerpt: >-
+      In this study, we quantified the phonological distance between pun and target words and assessed possible correlations with humorousness ratings of the subsuming joke. Our statistical analyses on a large dataset of puns revealed a significant negative correlation between phonological distance and perceived humorousness for two of the four phonological distance measures applied.
+    authors:
+    - Anna Palmann
+    - Tristan Miller
+
+  - title: "What's in a pun?"
+    date: "2021-01-01 00:01:00 +0800"
+    selected: true
+    pub: "MEi: CogSci Conference Proceedings"
+    pub_date: "2021"
+    excerpt: >-
+      In this study, we quantified and compared phonological and semantic features in a punning joke and assessed their influence on perceived funniness.
+    authors:
+    - Anna Palmann
+    url:
+      Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2021.pdf#page=53
+
+ - title: "Multilingual Language Experience and Heschl’s Gyrus Structure"
+    date: "2020-07-01 00:01:00 +0800"
+    selected: true
+    pub: "MEi: CogSci Conference Proceedings"
+    pub_date: "2020"
+    excerpt: >-
+      Using TASH, a toolbox for the automated segmentation of the Heschl's gyrus, we explored relationships between anatomical measures, such as volume, surface area, thickness, and curvature, and language-experience measures like number and proficiency of spoken languages, age of acquisition, and duration of exposure.
+    authors:
+    - Anna Palmann
+    - Narly Golestani
+    url:
+      Paper: https://cogsci.fmph.uniba.sk/meicogsciba/files/proceedings/MEiCogSci.Conference.Proceedings.2020.pdf#page=42
+
+
+
+
