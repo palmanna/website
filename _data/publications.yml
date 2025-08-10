@@ -1,4 +1,34 @@
 publications:
+- title: "It’s simply a different way of communicating – Attitudes on Nonverbal Communication of Autistic Adults in the Netherlands"
+  date: "2025-09-03 00:01:00 +0800"
+  selected: true
+  pub: "SemDial Proceedings"
+  pub_date: "2025"
+  excerpt: >-
+    Short Paper and poster for the "Bialogue - The 29th Workshop on the Semantics and Pragmatics of Dialogue" in Bielefeld, Germany.
+  authors:
+  - Anna Palmann
+  - James P. Trujillo    
+  - Linda Drijvers
+  - Floris Roelofsen
+  url:
+    Paper: 
+
+- title: "Multimodal communicative signals facilitating communicative success for hard-of-hearing individuals in noisy contexts"
+  date: "2025-07-09 00:01:00 +0800"
+  selected: true
+  pub: "International Society for Gesture Studies (ISGS)"
+  pub_date: "2025"
+  excerpt: >-
+    Poster for the "10th Conference of the ISGS" in Nijmegen, The Netherlands.
+  authors:
+  - Anna Palmann
+  - James P. Trujillo    
+  - Linda Drijvers
+  - Floris Roelofsen
+  url:
+    Paper: https://drive.google.com/file/d/1xtueNE8e4g31TPBcGbvvfhW9X2HpMPd4/view
+
 - title: "Multimodal communicative signals facilitating communicative success for hard-of-hearing individuals in noisy contexts"
   date: "2025-01-08 00:01:00 +0800"
   selected: true
@@ -8,7 +38,7 @@ publications:
     Poster for the "SPIN 2025 - 16th Speech in Noise Workshop" in Lancaster, Great Britain.
   authors:
   - Anna Palmann
-  - James Trujillo    
+  - James P. Trujillo    
   - Linda Drijvers
   - Floris Roelofsen
   url:
