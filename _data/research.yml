@@ -4,6 +4,10 @@ text: |
    For my master's theses I researched linguistic humor as well as audiovisual integration of speech, using methods from computational linguistics and neurolinguistics.
 
    In my PhD, I am investigating multimodal communication in challenging listening conditions. I am investigating acoustic and linguistic features of speech as well as kinematic features
-   (gestures, head movements, facial expressions, body posture) using a data-driven machine learning approach. For this, I invite people who are hard-of-hearing to the lab to have a conversation with each other. 
-   I am particulary interested in the aspects of multimodal communication that are associated with communicative success and enjoyment and hope to give informed suggestions on how to make a space more inclusive from a communicative point of view.
+   (gestures, head movements, facial expressions, body posture) using a data-driven machine learning approach. 
    
+   For this, I invite people who are hard-of-hearing to the lab to have a conversation with each other. I am particulary interested in the aspects of multimodal communication that are associated with communicative success and enjoyment and hope to give informed suggestions on how to make a space more inclusive from a communicative point of view.
+   
+images:
+  - url: "/assets/images/photos/dialogue.png"
+    alt: "Dialogue"
