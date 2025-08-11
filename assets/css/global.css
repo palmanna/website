@@ -105,7 +105,7 @@ a {
   float: right;
   margin: 0 0 1em 1em;
   max-width: 100%; /* Ensures the image is responsive */
-  height: 300; 
+  height: auto; 
 }
 
 .clearfix::after {
@@ -126,7 +126,7 @@ a {
 }
 
 .research-images img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   border-radius: 8px;
 }
