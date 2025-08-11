@@ -10,9 +10,9 @@
                             {{ site.data.research.text | markdownify }}
                         </p>
                         {% if site.data.research.images %}
-                            <div class="researcg-images">
+                            <div class="research-images">
                                 {% for image in site.data.research.images %}
-                                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" width = "300" height = "600" class="img-right"/>
+                                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" width = "500" height = "600" class = "img-right">
                                 {% endfor %}
                             </div>
                         {% endif %}
