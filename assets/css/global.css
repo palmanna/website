@@ -124,9 +124,3 @@ a {
   flex: 1;
   margin-right: 20px; /* Adjust spacing between text and image */
 }
-
-.research-images {
-  max-width: 150px; /* Adjusted width */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 8px;
-}
