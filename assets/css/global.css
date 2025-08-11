@@ -107,3 +107,26 @@ a {
   max-width: 100%; /* Ensures the image is responsive */
   height: auto; 
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.research-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.research-text {
+  flex: 1;
+  margin-right: 20px; /* Adjust spacing between text and image */
+}
+
+.research-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

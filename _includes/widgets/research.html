@@ -1,23 +1,24 @@
 <h2 class="pt-4 text-research-header" style="color: #A8BDA5;">My research</h2>
+
 <div class="row" style="background-color: #2C5F2D;">
   <div class="col">
     <div class="card border-0 shadow-sm bg-white">
       <div class="card-body p-5" style="background-color: #A8BDA5; font-family: 'Poppins', sans-serif; color: white;">
-        <div class="row">
-          <div class="col">
+        <div class="research-content">
+          <div class="research-text">
             <p class="text-research">
               {{ site.data.research.text | markdownify }}
             </p>
-            {% if site.data.research.images %}
-              <div class="research-images">
-                {% for image in site.data.research.images %}
-                  <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" class="img-right">
-                {% endfor %}
-              </div>
-            {% endif %}
           </div>
+          {% if site.data.research.images %}
+            <div class="research-images">
+              {% for image in site.data.research.images %}
+                <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}">
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
-    </div>        
+    </div>
   </div>
 </div>
