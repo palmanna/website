@@ -104,4 +104,6 @@ a {
 .img-right {
   float: right;
   margin: 0 0 1em 1em;
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; 
 }
