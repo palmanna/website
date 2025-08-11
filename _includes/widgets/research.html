@@ -12,7 +12,7 @@
                         {% if site.data.research.images %}
                             <div class="researcg-images">
                                 {% for image in site.data.research.images %}
-                                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" width = "600" height = "400"/>
+                                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" width = "300" height = "600" class="img-right"/>
                                 {% endfor %}
                             </div>
                         {% endif %}
