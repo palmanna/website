@@ -9,6 +9,13 @@
                         <p class="text-research">
                             {{ site.data.research.text | markdownify }}
                         </p>
+                        {% if site.data.research.images %}
+                            <div class="researcg-images">
+                                {% for image in site.data.research.images %}
+                                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" class="img-fluid rounded-image"/>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
