@@ -14,6 +14,10 @@ education:
     text: Read Thesis
     url: 'https://utheses.univie.ac.at/detail/62333'
     class: button
+  button:
+    text: Read Paper
+    url: 'https://www.degruyterbrill.com/document/doi/10.1515/humor-2024-0060/html'
+    class: button 
 
 
 - name: University of Vienna, Austria

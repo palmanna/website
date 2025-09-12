@@ -2,18 +2,28 @@ publications:
 - title: "It’s simply a different way of communicating –Attitudes on Nonverbal Communication of Autistic Adults in the Netherlands"
   date: "2025-09-03 00:01:00 +0800"
   selected: true
-  pub: "SemDial Proceedings"
+  pub: "Proceedings of the 29th Workshop on the Semantics and Pragmatics of Dialogue (pp.210-212)"
   pub_date: "2025"
   excerpt: >-
     Short Paper and poster for the "Bialogue - The 29th Workshop on the Semantics and Pragmatics of Dialogue" in Bielefeld, Germany.
-  pub_post: "In press"
   authors:
   - Anna Palmann
   - James P. Trujillo    
   - Linda Drijvers
   - Floris Roelofsen
   url:
-    Paper: 
+    Paper: https://dililab.uni-bielefeld.de/semdial2025/semdial2025-proceedings.pdf
+
+- title: "What’s in a pun? Assessing the relationship between phonological distance and perceived humorousness of punning jokes"
+  date: "2025-08-26 00:01:00 +0800"
+  selected: true
+  excerpt: >-
+    In this study, we quantified the phonological distance between pun and target words and assessed possible correlations with humorousness ratings of the subsuming joke. Our statistical analyses on a large dataset of puns revealed a significant negative correlation between phonological distance and perceived humorousness for two of the four phonological distance measures applied.
+  authors:
+  - Anna Palmann
+  - Tristan Miller
+  url:
+    Paper: https://www.degruyterbrill.com/document/doi/10.1515/humor-2024-0060/html
 
 - title: "Multimodal communicative signals facilitating communicative success for hard-of-hearing individuals in noisy contexts"
   date: "2025-07-09 00:01:00 +0800"
@@ -57,17 +67,6 @@ publications:
   - others
   url:
     Paper: https://www.thalia.de/shop/home/artikeldetails/A1072151617
-
-- title: "What’s in a pun? Assessing the relationship between phonological distance and perceived humorousness of punning jokes"
-  date: "2024-01-21 00:01:00 +0800"
-  selected: true
-  pub_pre: "Submitted to HUMOR: International Journal of Humor Research"
-  pub_post: "In press"
-  excerpt: >-
-    In this study, we quantified the phonological distance between pun and target words and assessed possible correlations with humorousness ratings of the subsuming joke. Our statistical analyses on a large dataset of puns revealed a significant negative correlation between phonological distance and perceived humorousness for two of the four phonological distance measures applied.
-  authors:
-  - Anna Palmann
-  - Tristan Miller
 
 - title: "What's in a pun?"
   date: "2021-01-01 00:01:00 +0800"

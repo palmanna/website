@@ -7,5 +7,7 @@ pages:
   url: /background
 - name: Publications
   url: /publications
+- name: Activities
+  url: /activities
 - name: About me
   url: /about

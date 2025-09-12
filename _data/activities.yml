@@ -1,0 +1,24 @@
+activities:
+- title: Reviewer for CHum 2025 - 1st Workshop on Computational Humor
+  selected: true
+  pub_date: "2024"
+  url:
+    Paper: https://chum2025.github.io/
+- title: Reviewer for the Journal "Cognitive Science"
+  selected: true
+  pub_date: "2025"
+  url:
+    Paper: https://onlinelibrary.wiley.com/journal/15516709
+- title: Attendance of DGfS Summer School "Form-Meaning Mismatches in Spoken and Visual Communication"
+  selected: true
+  pub_date: "2024"
+  url:
+    Paper: https://dgfssummer2024.blog/
+- title: Attendance of EnvisionBOX Summer School "Unboxing Multimodality"
+  selected: true
+  pub_date: "2025"
+  url:
+    Paper: https://www.envisionbox.org/images/postersummerschool2025.png
+- title: Teaching Assistant for the Course "Language, Speech and Dialogue Modeling"
+  selected: true
+  pub_date: "2024"
