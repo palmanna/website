@@ -10,14 +10,10 @@ education:
       
       Thesis on "The relationship between phonological and semantic distance and perceived funniness of punning jokes" 
       (supervised by <a href="https://logological.org/" target="_blank">Tristan Miller</a>)
-  button-group:
-    - text: Read Thesis
-      url: 'https://utheses.univie.ac.at/detail/62333'
-      class: button
-    - text: Read Paper
-      url: 'https://www.degruyterbrill.com/document/doi/10.1515/humor-2024-0060/html'
-      class: button 
-
+  button:
+    text: Read Paper
+    url: 'https://www.degruyterbrill.com/document/doi/10.1515/humor-2024-0060/html'
+    class: button
 
 - name: University of Vienna, Austria
   # logo: /assets/images/badges/PKU_red.png
