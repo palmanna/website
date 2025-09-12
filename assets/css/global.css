@@ -101,6 +101,20 @@ a {
     display: block;
 }
 
+.button {
+    background-color: #2C5F2D;
+    color: #ffffff;
+    padding: 8px 16px; /* Adjust size */
+    margin: 0 auto; /* Center align */
+    display: block;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;   /* center align the buttons as a group */
+  gap: 12px;                  /* space between the two buttons */
+}
+
 .img-right {
   float: right;
   margin: 0 0 1em 1em;
