@@ -101,20 +101,27 @@ a {
     display: block;
 }
 
-.button {
-  background-color: #2C5F2D;
-  color: #ffffff;
-  padding: 8px 16px; /* Adjust size */
-  /* margin: 0 auto; */ /* Remove this or use margin on container if needed */
-  display: inline-block; /* change from block to inline-block */
-  text-decoration: none;  /* ensure links don’t have underline if using <a> */
-  /* Optional: add border-radius, hover, etc. */
-}
-
 .button-group {
   display: flex;
   justify-content: center;   /* center align the buttons as a group */
-  gap: 12px;                  /* space between the two buttons */
+  gap: 12px;    
+  margin-top: 1rem;              /* space between the two buttons */
+}
+
+.button {
+  background-color: #2C5F2D !important;
+  color: #ffffff !important;
+  padding: 8px 16px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #244b1f !important;
 }
 
 .img-right {
