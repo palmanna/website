@@ -19,11 +19,11 @@
                 <p>{{ education.summary | markdownify }}</p>
 
                 {% if education.button-group %}
-                  <div class="button-group">
-                    {% for btn in education.button-group %}
-                      <a href="{{ btn.url }}" class="button">{{ btn.text }}</a>
-                    {% endfor %}
-                  </div>
+                    <div class="button-group">
+                        {% for btn in education.button-group %}
+                            <a href="{{ btn.url }}" class="{{ btn.class }}">{{ btn.text }}</a>
+                        {% endfor %}
+                    </div>
                 {% elsif education.button %}
                   <!-- fallback if only a single button present -->
                   <a href="{{ education.button.url }}" class="button">{{ education.button.text }}</a>
