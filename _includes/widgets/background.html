@@ -1,48 +1,42 @@
 <h2 class="pt-4 text-background-header" style="color: #A8BDA5;">My academic background</h2>
 
-
 <div class="row" style="background-color: #2C5F2D;">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-5" style="background-color: #A8BDA5; font-family: 'Poppins', sans-serif; color: white;">
-                <div class="row">
+  <div class="col">
+    <div class="card border-0 shadow-sm bg-white">
+      <div class="card-body p-5" style="background-color: #A8BDA5; font-family: 'Poppins', sans-serif; color: white;">
+        
+        <!-- Education Section -->
+        <div class="row mt-4">
+          <div class="col">
+            <h3 style="font-size: 1.5rem;">Education</h3>
 
-                <!-- Education Section -->
-                <div class="row mt-4">
-                    <div class="col">
-                        <h3 style="font-size: 1.5rem;">Education</h3>
-                        {% for education in site.data.background.education %}
-                        <div class="education-item">
-                            <h4 style="font-size: 1.25rem;">
-                                {{ education.position }}
-                                <small>({{ education.name }}, {{ education.date }})</small>
-                            </h4>
-                            <p>{{ education.summary | markdownify }}</p>
-                            {% if education.button %}
-                            <a href="{{ education.button.url }}" class="btn btn-primary" style="background-color: #2C5F2D; border-color: #2C5F2D; font-size: 0.875rem; padding: 0.5rem 0.5rem;">{{ education.button.text }}</a>
-                            {% endif %}
-                        </div>
-                        <br>
-                        {% endfor %}
-                    </div>
-                </div>
+            {% for education in site.data.background.education %}
+              <div class="education-item mb-4">
+                <h4 style="font-size: 1.25rem;">
+                  {{ education.position }}
+                  <small>({{ education.name }}, {{ education.date }})</small>
+                </h4>
+                <p>{{ education.summary | markdownify }}</p>
 
-                <!-- Experience Section -->
-                <!--<div class="row mt-4">
-                    <div class="col">
-                        <h3 style="font-size: 1.5rem;">Experience</h3>
-                        {% for experience in site.data.background.experience %}
-                        <div class="experience-item">
-                            <h4 style="font-size: 1.25rem;">
-                                {{ experience.position }}
-                                <small>({{ experience.company }}, {{ experience.years }})</small>
-                            </h4>
-                            <p>{{ experience.description | markdownify }}</p>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div> -->
-            </div>
-        </div>        
-    </div>
-</div>
+                {% if education.button-group %}
+                  <div class="button-group">
+                    {% for btn in education.button-group %}
+                      <a href="{{ btn.url }}" class="button">{{ btn.text }}</a>
+                    {% endfor %}
+                  </div>
+                {% elsif education.button %}
+                  <!-- fallback if only a single button present -->
+                  <a href="{{ education.button.url }}" class="button">{{ education.button.text }}</a>
+                {% endif %}
+              
+              </div>
+            {% endfor %}
+
+          </div>
+        </div>
+        <!-- end Education Section -->
+
+      </div> <!-- card-body -->
+    </div> <!-- card -->
+  </div> <!-- col -->
+</div> <!-- row -->
